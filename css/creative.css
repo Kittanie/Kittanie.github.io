@@ -38,7 +38,20 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+p {
+
+  font-family: 'Poppins', sans-serif;
+}
+
 .bg-primary {
+  background-color: #861556 !important;
+}
+
+.bg-twitch {
+  background-color: #61154c !important;
+}
+
+.bg-youtube {
   background-color: #411544 !important;
 }
 
@@ -92,12 +105,12 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: #f2a965;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #f2a965;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -109,19 +122,20 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover { 
+  color: #f2a965;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: #f2a965 !important;
   background-color: transparent;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
+  color: #f2a965 !important;
 }
 
 @media (min-width: 992px) {
@@ -151,18 +165,18 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: #61154c;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #f2a965;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #61154c;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: #f2a965;
   }
 }
 
@@ -234,7 +248,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(97, 21, 76, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -298,13 +312,13 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #521549;
-  border-color: #521549;
+  background-color: #61154c;
+  border-color: #61154c;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #f2ab65 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
