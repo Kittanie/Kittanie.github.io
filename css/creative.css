@@ -44,15 +44,16 @@ p {
 }
 
 .bg-primary {
-  background-color: #861556 !important;
+  background-color: #411544 !important;
 }
+
 
 .bg-twitch {
   background-color: #61154c !important;
 }
 
 .bg-youtube {
-  background-color: #411544 !important;
+  background-color: #861556 !important;
 }
 
 .bg-dark {
@@ -316,6 +317,7 @@ header.masthead p {
   border-color: #61154c;
 }
 
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
   background-color: #f2ab65 !important;
@@ -325,7 +327,27 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
+.btn-channel {
+  background-color: #b91a61;
+  border-color: #b91a61;
+  color: #fff;
+}
+
+.btn-channel:hover, .btn-channel:focus, .btn-channel:active {
+  color: #fff;
+  background-color: #f2ab65 !important;
+}
+
+.btn-channel:active, .btn-channel:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
 .container-margintop{
 
   margin-top: 25px;
+}
+
+.container-marginbot{
+
+  margin-bottom: 25px;
 }
