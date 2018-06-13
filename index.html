@@ -97,14 +97,26 @@
     <section class="bg-twitch" id="twitch">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 mx-auto text-center">
-            <h2 class="section-heading text-white">About</h2>
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Twitch</h2>
             <hr class="light my-4">
             <p class="text-faded mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra sit amet mauris nec ornare. Praesent vel ultrices lorem. Phasellus mattis pellentesque dolor sit amet imperdiet. Nulla at tincidunt elit. Sed sed dapibus mi. Phasellus imperdiet magna id libero malesuada tincidunt. Suspendisse consequat posuere purus, quis facilisis nisl dapibus ut. Proin quis auctor tortor. Donec vel accumsan erat, vel elementum nulla. Mauris congue tempus metus eu faucibus. Fusce suscipit posuere magna, ac convallis tellus mattis nec. Donec vitae mi porttitor, hendrerit augue non, congue dolor. Quisque ligula orci, vehicula eget finibus at, pulvinar eu odio. Quisque dui justo, rhoncus nec libero sed, placerat viverra tellus. Mauris commodo neque ut quam lobortis pharetra.</p>
           </div>
-          <div class="col-lg-8 mx-auto text-center">
-          <div id="twitch-embed"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto text-center">
+            <div id="twitch-embed"></div>
           </div>
+          <!--<iframe frameborder="0"
+                  scrolling="yes"
+                  id="kittanie"
+                  theme="dark"
+                  src="https://www.twitch.tv/embed/kittanie/chat"
+                  height="500"
+                  width="350">
+          </iframe>-->
         </div>
       </div>
     </section>
@@ -316,10 +328,10 @@
     <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
     <script type="text/javascript">
       new Twitch.Embed("twitch-embed", {
-        width: 900,
-        height: 506,
+        width: 1152,
+        height: 648,
         channel: "kittanie",
-        theme: "dark"
+        theme: "dark",
       });
     </script>
 
