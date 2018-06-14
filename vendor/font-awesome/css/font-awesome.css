@@ -195,6 +195,11 @@
 .fa-heart:before {
   content: "\f004";
 }
+
+.fa-tshirt:before {
+  content: "\f553";
+}
+
 .fa-star:before {
   content: "\f005";
 }
@@ -585,6 +590,11 @@
 .fa-heart-o:before {
   content: "\f08a";
 }
+
+.fa-tshirt:before {
+  content: "\f553";
+}
+
 .fa-sign-out:before {
   content: "\f08b";
 }
