@@ -297,7 +297,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: #61154c !important;
 }
 
 .btn {
@@ -328,8 +328,8 @@ header.masthead p {
 }
 
 .btn-channel {
-  background-color: #b91a61;
-  border-color: #b91a61;
+  background-color: #411544;
+  border-color: #411544;
   color: #fff;
 }
 
@@ -350,4 +350,10 @@ header.masthead p {
 .container-marginbot{
 
   margin-bottom: 25px;
+}
+
+iframe {
+
+  border-style: solid;
+  border-width: 5px;
 }
