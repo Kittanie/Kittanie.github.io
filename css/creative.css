@@ -25,6 +25,11 @@ a {
   transition: all 0.2s;
 }
 
+.mfp-title, .mfp-counter{
+
+  font-family: 'Poppins', sans-serif; 
+}
+
 a:hover {
   color: #f05f40;
 }
