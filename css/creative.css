@@ -34,6 +34,17 @@ a:hover {
   color: #f05f40;
 }
 
+a:hover.foot {
+
+  color: #411544;
+
+}
+
+a.foot {
+
+  color: #411544;
+}
+
 
 h1,
 h2,
@@ -74,6 +85,11 @@ p {
 
 
   background-color: #212529 !important;  
+}
+
+.bg-footer {
+
+  background-color: #f2a965;
 }
 
 section {
