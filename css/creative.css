@@ -268,6 +268,16 @@ header.masthead p {
   margin: 0 auto;
 }
 
+.portfolio-box .DBorder{
+
+  border: 4px solid #d16e8d;
+}
+
+.portfolio-box .LBorder{
+
+  border: 4px solid #fcc4c7;
+}
+
 .portfolio-box .portfolio-box-caption {
   position: absolute;
   bottom: 0;
